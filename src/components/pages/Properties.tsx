@@ -1,8 +1,7 @@
 import React from "react";
-import styled from "styled-components";
 
 const Properties = () => {
-  return <div></div>;
+  return <div>test</div>;
 };
 
 export default Properties;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import NavTextButton from "../atoms/NavTextButton";
 
 interface Iprops {
-  buttonData: { content: string; isBold: boolean }[];
+  buttonData: { content: string; isBold: boolean; path: string }[];
   mouseHover: (index: number) => void;
   order: number;
 }
@@ -23,6 +23,7 @@ const NavButtonList = ({ buttonData, mouseHover, order }: Iprops) => {
             index={i}
             content={data.content}
             isBold={data.isBold}
+            path={data.path}
             mouseHover={mouseHover}
             order={order}
             key={i}

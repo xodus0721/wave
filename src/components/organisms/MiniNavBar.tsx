@@ -4,7 +4,7 @@ import NavButtonList from "../molecules/NavButtonList";
 import NavUnderLine from "../atoms/NavUnderLine";
 
 interface Iprops {
-  datas: { content: string; isBold: boolean }[];
+  datas: { content: string; isBold: boolean; path: string }[];
   order: number;
 }
 

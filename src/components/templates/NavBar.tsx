@@ -20,41 +20,50 @@ const firstTItles = [
   {
     content: "홈페이지 소개",
     isBold: true,
+    path: "",
   },
   {
     content: "파동의 성질",
     isBold: false,
+    path: "properties",
   },
   {
     content: "전반사",
     isBold: false,
+    path: "totalreflection",
   },
   {
     content: "전자기파",
     isBold: false,
+    path: "electromagneticradiation",
   },
   {
     content: "파동의 간섭",
     isBold: false,
+    path: "interference",
   },
   {
     content: "빛의 이중성",
     isBold: false,
+    path: "dualityoflight",
   },
   {
     content: "물질의 이중성",
     isBold: false,
+    path: "Waveparticleduality",
   },
 ];
 
 const secondTItles = [
   {
-    content: "단원 정리",
+    content: "최종 정리",
     isBold: true,
+    path: "finalsummary",
   },
   {
-    content: "전반사",
+    content: "페이지 설정",
     isBold: false,
+    path: "settings",
   },
 ];
 
