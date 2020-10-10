@@ -1,7 +1,12 @@
 import React from "react";
+import ExtraSizeHeader from "../atoms/ExtraSizeHeader";
 
 const Main = () => {
-  return <div>test</div>;
+  return (
+    <div>
+      <ExtraSizeHeader>어려움</ExtraSizeHeader>
+    </div>
+  );
 };
 
 export default Main;
