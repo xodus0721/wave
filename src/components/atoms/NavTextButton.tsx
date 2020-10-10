@@ -16,8 +16,8 @@ interface IStyledProps {
 const NavText = styled.span`
   font-size: ${(props: IStyledProps) => (props.isBold ? "24px" : "20px")};
   font-weight: ${(props) => (props.isBold ? "bold" : "")};
-  padding: 0px 20px;
-  /* margin: 0 12px; */
+  padding: 0px 10px;
+  margin: 0 10px;
 `;
 
 const ClickArea = styled.div`

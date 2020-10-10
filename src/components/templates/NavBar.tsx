@@ -18,7 +18,7 @@ const NavContainer = styled.div`
 
 const firstTItles = [
   {
-    content: "홈 페이지",
+    content: "홈페이지 소개",
     isBold: true,
   },
   {
