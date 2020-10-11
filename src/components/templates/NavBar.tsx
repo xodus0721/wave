@@ -7,6 +7,7 @@ const NavWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2em;
 `;
 
 const NavContainer = styled.div`

@@ -7,7 +7,7 @@ interface Iprops {
 
 const Header = styled.span`
   font-size: ${({ theme }) => theme.fonts.extra};
-  color: ${({ theme }) => theme.colors.header};
+  color: ${({ theme }) => theme.colors.pureBlack};
 `;
 
 const BigHeader = ({ children }: Iprops) => {

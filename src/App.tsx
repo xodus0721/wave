@@ -7,18 +7,20 @@ import Properties from "./components/pages/Properties";
 
 const theme = {
   colors: {
-    header: "#242424",
-    subHeader: "#C6C6C6",
-    lightGray: "#F7F8FA",
+    lightGray: "#BBBBBB",
+    gray: "#7B7B7B",
+    white: "#FBFBFB",
     pureWhite: "#FFFFFF",
     pureBlack: "#000000",
-    pointBlue: "#0E62FF",
+    pointBlue: "#7DA2F2",
   },
   fonts: {
-    normal: "16px",
-    small: "12px",
-    big: "72px",
-    extra: "240px",
+    small: "0.75em",
+    normal: "1em",
+    bold: "1.5em",
+    semiBig: "2em",
+    big: "3em",
+    extra: "5em",
   },
 };
 
