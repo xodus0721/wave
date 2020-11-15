@@ -18,14 +18,13 @@ interface IStyledProps {
 const NavText = styled.span`
   font-size: ${(props: IStyledProps) => (props.isBold ? "1.5em" : "1em")};
   font-weight: ${(props) => (props.isBold ? "bold" : "")};
-  padding: 0 0.625em;
-  margin: 0 0.625em;
 `;
 
 const ClickArea = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0.75em 1.5em;
   &:hover {
     cursor: pointer;
   }

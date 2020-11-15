@@ -10,10 +10,12 @@ const UnderLine = styled.div`
   padding: 0;
   cursor: none;
   width: ${(props: Iprops) => props.width}px;
-  margin-left: ${(props) => props.left}px;
   height: 2px;
   background: black;
   transition: all 600ms ease;
+  position: relative;
+  bottom: 0.8em;
+  left: ${(props) => props.left}px;
 `;
 
 const NavUnderLine = ({ width, left }: Iprops) => {
